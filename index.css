@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid #eee
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+.logo{
+    margin-left: 5rem;
+    & a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: black;
+    }
+}
+.menu{
+    display: flex;
+    list-style: none;
+    & a{
+        margin: 0 2rem;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
+.menu a:hover {
+    color: gray; /* เปลี่ยนสีเมื่อ hover */
+}
+.botton-nav{
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-right: 10rem;
+    box-shadow: 5px 5px;
+    background-color: aliceblue;
+    padding: 8px 16px;
+}
+.botton-nav:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    box-shadow: 5px 5px gray;
+}
+.home{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-top: 5rem;
+}
+.home-about{
+    margin-left: 5rem;
+    & h1 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    & p {
+        padding-top: 1rem;
+        color: gray;
+    }
+    & .button-home {
+       margin-top: 2rem;
+       & button{
+        color: black;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin-right: 1rem;
+        box-shadow: 5px 5px;
+        background-color: rgb(252, 252, 252);
+        padding: 8px 16px;
+       }
+       
+    }
+}
+.home-image{
+    & img{
+        width: 652px;
+        height: 420px;
+    }
+}
+.img-item{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+     & img {
+        margin: 2rem 2rem;
+     }
+}
+.provide-text{
+    text-align: center;
+    margin-top: 5rem;
+        & h1 {
+            font-weight: bold;
+            font-size: 30px;
+        }
+        & p {
+            margin-top: 1rem;
+            color: gray;
+        }
+}
+.porperty-header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    width: auto;
+    margin-top: 5REM;
+}
+.property-item{
+    color: black;
+    padding: 48px 24px;
+    text-align: left;
+    border: 2px gray solid;
+    width: 441px;
+    height: 230px;
+    
+    
+     & img{
+        width: 40px;
+        height: 40px;
+        margin-bottom: 1rem;
+     }
+
+     & h1{
+        margin-bottom: 1rem;
+     }
+
+     & p{
+        margin-bottom: 1rem;
+        color: gray;
+     }
+     & a{
+        color: black;
+    }
+} 
