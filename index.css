@@ -2,21 +2,22 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid #eee
+
 }
-nav{
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    height: 70px;
-    align-items: center;
 }
+
 .logo{
-    margin-left: 5rem;
     & a {
         text-decoration: none;
         font-weight: bold;
         font-size: 30px;
         color: black;
+       
     }
 }
 .menu{
@@ -37,7 +38,6 @@ nav{
     color: black;
     font-size: 1rem;
     line-height: 1.5rem;
-    margin-right: 10rem;
     box-shadow: 5px 5px;
     background-color: aliceblue;
     padding: 8px 16px;
@@ -54,7 +54,6 @@ nav{
     margin-top: 5rem;
 }
 .home-about{
-    margin-left: 5rem;
     & h1 {
         font-size: 40px;
         font-weight: bold;
@@ -87,9 +86,7 @@ nav{
     display: flex;
     margin-top: 5rem;
     justify-content: center;
-     & img {
-        margin: 2rem 2rem;
-     }
+    gap: 3.5rem;
 }
 .provide-text{
     text-align: center;
@@ -107,16 +104,14 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
-    width: auto;
     margin-top: 5REM;
+    column-gap: 10px;
 }
 .property-item{
     color: black;
     padding: 48px 24px;
     text-align: left;
     border: 2px gray solid;
-    width: 441px;
-    height: 230px;
     
     
      & img{
@@ -137,3 +132,5 @@ nav{
         color: black;
     }
 } 
+
+
